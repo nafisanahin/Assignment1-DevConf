@@ -17,6 +17,11 @@
 .common-button:hover {
   background-color: rgb(130, 130, 146);
 }
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
 /* navbar css */
 .navbar {
   display: flex;
@@ -117,11 +122,10 @@ ul li a {
   background-color: white;
 }
 .speaker-parent h1 {
-  font-size: 45px;
-  font-weight: 800;
+  font-size: 40px;
   text-align: center;
-  color: black;
-  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
 .speaker {
   display: grid;
@@ -147,24 +151,28 @@ ul li a {
 .speaker-info h4 {
   color: #2563eb;
   margin-bottom: 10px;
+  font-size: 12px;
 }
 .speaker-info h2 {
   margin-bottom: 10px;
+  font-size: 20px;
 }
 .speaker-info p {
-  font-size: 18px;
+  font-size: 12px;
+  font-weight: 600;
   color: rgb(119, 116, 116);
   margin-bottom: 10px;
 }
 /* secure spot css */
 .pricing-parent {
-  padding: 80px 90px;
+  max-width: 900px;
 }
 .pricing-card-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 25px;
+  gap: 15px;
   align-items: stretch;
+  height: 400px;
 }
 .pricing {
   width: 40%;
@@ -172,8 +180,9 @@ ul li a {
   text-align: center;
 }
 .pricing h1 {
-  font-size: 45px;
+  font-size: 35px;
   text-align: center;
+  margin-top: 50px;
 }
 .pricing p {
   font-size: 15px;
@@ -185,12 +194,13 @@ ul li a {
 }
 .pricing-card {
   background: white;
-  border: 1px solid rgb(224, 221, 221);
+  border: 1px solid rgb(228, 221, 221);
   border-radius: 10px;
   padding: 25px;
   text-align: left;
   display: flex;
   flex-direction: column;
+  height: 350px;
 }
 .dark {
   background-color: #0d1b2a;
@@ -200,30 +210,30 @@ ul li a {
   background-color: #f8f9fb;
 }
 .pricing-card h2 {
-  font-size: 40px;
+  font-size: 35px;
 }
 .pricing-card h5 {
-  font-size: 15px;
+  font-size: 10px;
   color: rgb(119, 116, 116);
 }
 .pricing-card span {
-  font-size: 15px;
+  font-size: 10px;
   color: rgb(119, 116, 116);
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .pricing-card ul {
   display: block;
   list-style: none;
   padding: 0;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .pricing-card ul li {
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 3px;
   color: rgb(102, 100, 100);
   font-weight: 500;
-  font-size: 15px;
+  font-size: 10px;
 }
 .dark ul li {
   color: rgb(179, 170, 170);
@@ -248,9 +258,9 @@ ul li a {
   background: white;
   border: 1px solid #2563eb;
   color: #2563eb;
-  padding: 12px;
+  padding: 5px;
   border-radius: 6px;
-  font-size: 14px;
+  font-size: 10px;
   font-weight: bold;
   cursor: pointer;
 }
