@@ -5,13 +5,17 @@
   font-family: "Open Sans", sans-serif;
 }
 .common-button {
-  background-color: #3b82f6;
+  background-color: #3563ad;
   color: white;
   padding: 10px 20px;
   border-radius: 6px;
   border: none;
   font-size: 14px;
   font-weight: 500;
+  cursor: pointer;
+}
+.common-button:hover {
+  background-color: rgb(130, 130, 146);
 }
 /* navbar css */
 .navbar {
@@ -85,17 +89,69 @@ ul li a {
 }
 .hero-overlay p {
   line-height: 1.7;
-  margin-bottom: 180px;
+  margin-bottom: 280px;
+  text-align: center;
+  color: rgb(179, 174, 174);
 }
 .hero-common-button {
-  display: block; 
-  width: fit-content; 
-  margin: 0 auto; 
-  background-color: #3b82f6;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  background-color: #3563ad;
   color: white;
   padding: 10px 20px;
   border-radius: 6px;
   border: none;
   font-size: 14px;
   font-weight: 500;
+  cursor: pointer;
+}
+
+.hero-common-button:hover {
+  background-color: rgb(130, 130, 146);
+}
+
+/* meet speaker css */
+.speaker-parent {
+  padding: 80px 90px;
+  background-color: white;
+}
+.speaker-parent h1 {
+  font-size: 45px;
+  font-weight: 800;
+  text-align: center;
+  color: black;
+  margin-bottom: 30px;
+}
+.speaker {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.speaker-card {
+  border: 1px solid rgb(224, 221, 221);
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden;
+}
+.speaker img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+}
+.speaker-info {
+  padding: 20px;
+}
+.speaker-info h4 {
+  color: rgb(59, 59, 247);
+  margin-bottom: 10px;
+}
+.speaker-info h2 {
+  margin-bottom: 10px;
+}
+.speaker-info p {
+  font-size: 18px;
+  color: rgb(175, 172, 172);
+  margin-bottom: 10px;
 }
