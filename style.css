@@ -322,3 +322,33 @@ ul li a {
 .faq-items[open] {
   background-color: #f8f9fb;
 }
+
+/* footer css */
+.footer {
+  background-color: #0d1b2a;
+  padding: 40px 90px;
+}
+.footer-icon a {
+  font-size: 30px;
+  color: #f8f9fb;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-bottom {
+  margin-top: 10px;
+  color: rgb(119, 116, 116);
+  display: flex;
+  justify-content: space-between;
+}
+.footer-links a {
+  color: rgb(119, 116, 116);
+  text-decoration: none;
+}
+.footer hr {
+  border: none;
+  border-top: 1px solid #253344;
+}
