@@ -1,0 +1,1 @@
+I'm building a DevConf 2026 conference landing page using HTML and CSS.So give a relevant section for DevConf 2026 theme like(Sponsors, Venue, FAQ, Newsletter Signup, Hackathon Details, Past Highlights, Job Board).
